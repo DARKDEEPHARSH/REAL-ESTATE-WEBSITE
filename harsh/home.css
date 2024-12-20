@@ -1,0 +1,159 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* From second set */
+    color: #333; /* From second set */
+}
+
+h1, h2 {
+    color: white;
+    margin-bottom: 10px; /* Integrated from second set */
+}
+
+p {
+    line-height: 1.8; /* From second set */
+    margin-bottom: 16px; /* From second set */
+}
+
+/* Header */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('/1899342.jpg') no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+/* Search Filter */
+.search-filter {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.search-filter input,
+.search-filter select,
+.search-filter button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+/* Property Listings */
+.property-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.property {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.property img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.property-details {
+    padding: 15px;
+}
+
+/* Inquiry Form */
+.inquiry-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    max-width: 600px; 
+    margin: 20px auto; 
+}
+
+
+.inquiry-form input,
+.inquiry-form textarea,
+.inquiry-form button {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    font-size: 1em;
+}
+
+/* About Us Section */
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.illustration {
+    flex: 1;
+    text-align: center;
+}
+
+.illustration img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.about{
+    color: #003366;
+}
+.base{
+    padding: 65px ;
+}
+.raj{
+    padding: 120px;
+}
